@@ -1,5 +1,10 @@
 # Machine Learning Pipelines
 
+[![JDK](https://img.shields.io/badge/Java%20JDK-1.8-green)](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox)
+[![Clickhouse](https://img.shields.io/badge/Clickhouse-DB-red)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-clickhouse-on-ubuntu-18-04)
+[![SPARK](https://img.shields.io/badge/SPARK-2.4.6-green)](https://www.apache.org/dyn/closer.lua/spark/spark-2.4.6/spark-2.4.6-bin-hadoop2.7.tgz)
+[![Scala](https://img.shields.io/badge/Scala-2.11.12-brightgreen)](https://www.scala-lang.org/download/2.11.12.html)
+
 ## Introduction to each package
 ### Database to Clickhouse Pipeline (DBtoCH)
 This pipeline reads data from 2 tables in a database on the host, combines the tables (inner join), adds 3 new columns to the joined table and writes onto a remote clickhouse database. 
