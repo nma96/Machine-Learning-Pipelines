@@ -4,6 +4,7 @@
 [![Clickhouse](https://img.shields.io/badge/Clickhouse-DB-red)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-clickhouse-on-ubuntu-18-04)
 [![SPARK](https://img.shields.io/badge/SPARK-2.4.6-green)](https://www.apache.org/dyn/closer.lua/spark/spark-2.4.6/spark-2.4.6-bin-hadoop2.7.tgz)
 [![Scala](https://img.shields.io/badge/Scala-2.11.12-brightgreen)](https://www.scala-lang.org/download/2.11.12.html)
+![GitHub last commit](https://img.shields.io/github/last-commit/nma96/Machine-Learning-Pipelines)
 
 ## Introduction to each package
 ### Database to Clickhouse Pipeline (DBtoCH)
