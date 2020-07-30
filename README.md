@@ -19,6 +19,9 @@ This class is to predict the purchase variable in the csv using Logistic Regress
 ### Score Prediction
 This class is to predict the result variable in the csv using Logistic Regression. Accuracy achieved: LR 79% 
  
+### Data Cleansing Pipeling
+This class uses the Titanic Dataset from Kaggle, performs some data cleansing and returns a clean dataframe for further analysis/prediction 
+ 
 ## Instructions to run pipelines (DBtoCH & FlightDataRead):
 1. Clone the entire repository and open in IntelliJ IDEA
 2. Create BuildConfigurations for EACH object (Edit Configurations > + > Application type >  Choose the main class to be the respective .scala files)
