@@ -78,7 +78,7 @@ object FlightDataRead {
         Map(
           "driver" -> "ru.yandex.clickhouse.ClickHouseDriver"
         ))
-      .jdbc(url = "jdbc:clickhouse://192.168.254.22:8123/FlightData",
+      .jdbc(url = "jdbc:clickhouse://192.168.254.24:8123/FlightData",
         table = "flight_data_spark_csv",
         connectionProperties = ckProperties
       )
